@@ -131,6 +131,8 @@ public class Manager : MonoBehaviour {
 
 		if(currentAffectionPoints >= 99) {
 			currentAffectionPoints = 99;
+		} else if(currentAffectionPoints <= -99) {
+			currentAffectionPoints = -99;
 		}
 
 		Manager.instance.debugPointsText.text = "" + currentAffectionPoints;
