@@ -128,6 +128,11 @@ public class Manager : MonoBehaviour {
 		float maxPoints = 50f;
 		float minPoints = 20f;
 		currentAffectionPoints += affection;
+
+		if(currentAffectionPoints >= 99) {
+			currentAffectionPoints = 99;
+		}
+
 		Manager.instance.debugPointsText.text = "" + currentAffectionPoints;
 
 		if(currentAffectionPoints > 0) {

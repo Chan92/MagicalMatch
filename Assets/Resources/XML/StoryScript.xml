@@ -501,16 +501,16 @@
 	<!--Mid ending path, points > 4-->
 	<ChapterMid1>
 		<Lines>
-			<Line1>[girl]: "You seem like a good fit.. Yes"[Image:Date_smile][Image:MC_neutral_smile][BGM:endingMid]</Line1>
+			<Line1>[girl]: "You seem like a good fit.. Yes" [Image:Date_smile] [Image:MC_neutral_smile] [BGM:endingMid]</Line1>
 			<Line2>The waiter finally brings in the drinks and you spend the rest of the afternoon with [girl] in the cafe.</Line2>
 			<Line3>By the end of it, you begin to feel unwell.. $Now that you think of it, that drink tasted weird..</Line3>
 			<Line4>Could something have been put into it perhaps??[Image:Date_nervous_smile][Image:MC_uninterested]</Line4>
 			<Line5>Suddenly you collapse and everything turns dark.. [BG:black][Image:Date_empty]</Line5>
-			<Line6> [@] </Line6>
+			<Line6> ... [Image:MC_empty]</Line6>
 			
 			<Line7>[MC]: "Huh where am I?"</Line7>
 			<Line8>[Girl]: "Don't worry, we made it!"[Image:Mage_Smile]</Line8>
-			<Line9>You look around and find yourself in a throne room. [BG:Royal]</Line9>
+			<Line9>You look around and find yourself in a throne room. [Image:MC_uninterested][BG:Royal]</Line9>
 			<Line10>King: SILENCE! Let me see the human.</Line10>
 			<Line11>[Girl]: "Here you go my lord, he seems to be the perfect fit!"[Image:Mage_happy]</Line11>
 			<Line12>[girl] pushes you towards the king, you see him inspecting you.</Line12>

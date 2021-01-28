@@ -137,6 +137,9 @@ public class StoryReader : MonoBehaviour {
 		} else if(s.Contains("[Image:MC_uninterested]")) {
 			s = s.Replace("[Image:MC_uninterested]", "");
 			Manager.instance.charMain.sprite = Manager.instance.charMainSprites[5];
+		} else if(s.Contains("[Image:MC_empty]")) { //<invisible>
+			s = s.Replace("[Image:MC_empty]", "");
+			Manager.instance.charMain.sprite = Manager.instance.charMainSprites[6];
 		}
 
 		//date char
@@ -157,17 +160,17 @@ public class StoryReader : MonoBehaviour {
 			s = s.Replace("[Image:Date_unhappy]", "");
 			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[4];
 		} else if(s.Contains("[Image:Mage_happy]")) { //Mage_happy
-			s = s.Replace("[Image:Date_unhappy]", "");
-			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[4];
+			s = s.Replace("[Image:Mage_happy]", "");
+			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[5];
 		} else if(s.Contains("[Image:Mage_mischief]")) { //Mage_mischief
-			s = s.Replace("[Image:Date_unhappy]", "");
-			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[4];
+			s = s.Replace("[Image:Mage_mischief]", "");
+			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[6];
 		} else if(s.Contains("[Image:Mage_Smile]")) { //Smile
-			s = s.Replace("[Image:Date_unhappy]", "");
-			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[4];
+			s = s.Replace("[Image:Mage_Smile]", "");
+			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[7];
 		} else if(s.Contains("[Image:Date_empty]")) { //<invisible>
 			s = s.Replace("[Image:Date_empty]", "");
-			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[4];
+			Manager.instance.charDate.sprite = Manager.instance.charDateSprites[8];
 		}
 
 		//BG

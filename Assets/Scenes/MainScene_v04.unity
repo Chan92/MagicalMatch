@@ -7014,6 +7014,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3331221c33c5fe344a4799890ff1762b, type: 3}
   - {fileID: 21300000, guid: 8463fa3b43655f7468d869126b47fd94, type: 3}
   - {fileID: 21300000, guid: 4262298b03ad83d4f8f0fd13be2400dc, type: 3}
+  - {fileID: 21300000, guid: 4577bd7b6a9fff94fac61d195aad8b88, type: 3}
   charDate: {fileID: 1094270643}
   charDateSprites:
   - {fileID: 21300000, guid: 8b733266cd7e19549b6a7cd7b853585c, type: 3}
@@ -7021,6 +7022,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cdb8c0c76ff20c44ba3a6b4d88bc6e1d, type: 3}
   - {fileID: 21300000, guid: bcf04caa5ea9f4c4e916bbf7cc84fb5d, type: 3}
   - {fileID: 21300000, guid: b33e747da69b93d469e749b8c7d41a0f, type: 3}
+  - {fileID: 21300000, guid: d71c0e341c6594a41a5e9bf89b2ad416, type: 3}
+  - {fileID: 21300000, guid: fc1ed0e3ce8b1d848bedc9eee1753779, type: 3}
+  - {fileID: 21300000, guid: cf9ef0b24c75c8e48999381d925ce00d, type: 3}
+  - {fileID: 21300000, guid: 4577bd7b6a9fff94fac61d195aad8b88, type: 3}
   mainCharName: '[Mc name]'
   dateName: '[Date name]'
   inputfield:
