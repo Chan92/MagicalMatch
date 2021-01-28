@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Story>
+	<!--[Start]-->
+	<Chapter1>
+		<Lines>
+			<Line1>You are waiting outside, looking at your phone. [Image:MC_phone][BG:park]</Line1>
+			<Line2>She’s late.. will she even show up? </Line2>
+			<Line3>You sigh as you put away your phone.[Image:MC_uninterested] </Line3>
+			<Line4>Maybe this wasn’t such a good idea..</Line4>
+			<Line5>You drop your skateboard, ready to step on it and leave when suddenly..[Image:MC_angry] </Line5>
+			<Line6>“WAIT!!”[Image:Date_nervous_smile]</Line6>
+			<Line7>“Hm?” [Image:MC_uninterested]</Line7>
+			<Line8>A girl comes running at you at full speed. </Line8>
+			<Line9>“SORRY! Sorry.. -huff- Sorry I’m late -pant-” [Image:Date_nervous]</Line9>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>“It’s okay! I’m glad you could make it.</Line1>
+					<Line2>“Really? Oh I’m so glad! Thanks!” $“It’s nice to finally meet you in person! So hi! My name is [girl]”[Image:MC_neutral_smile][Image:Date_happy]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter2</NextChapter>
+		</Option1>
+			<Option2>
+				<Text>
+					<Line1>“You better be sorry..”</Line1>
+					<Line2>“A-Ahh.. This isn’t a great start, I admit that..” $“It is nice to finally meet you though! So I am [girl]"[Image:MC_uninterested][Image:Date_unhappy]</Line2>
+				</Text>
+				<Points>-1</Points>
+				<NextChapter>Chapter2</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter1>
+	<Chapter2>
+		<Lines>
+			<Line1>[MC]: “It’s nice to meet you too, I am [MC]”</Line1>
+			<Line2>[girl]: “Soo [MC] are you excited for our very first date?” </Line2>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Hell yeah!”</Line1>
+					<Line2>[girl]: “Hahaha, glad to hear it! Where would you like to go?”[Image:MC_happy_peace][Image:Date_happy]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter3</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>“Meh”</Line1>
+					<Line2>[girl]: “Still kinda mad, huh? Well.. I’ll let you decide where we go next then!”[Image:MC_uninterested][Image:Date_unhappy]</Line2>
+				</Text>
+				<Points>-1</Points>
+				<NextChapter>Chapter3</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter2>
+	<Chapter3>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Cafe </Line1>
+					<Line2>[girl]: “Sounds like fun, let’s go!”[Image:Date_smile][Image:MC_neutral_smile]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter4</NextChapter>
+			</Option1>
+		</Options>
+	</Chapter3>
+
+	<!--[Date]-->
+	<Chapter4>
+		<Lines>
+			<Line1>You and [girl] walk into the nearest café you could find. It’s small but very cozy, and it seems she likes the place.[BG:cafe][BGM:date]</Line1>
+			<Line2>[Girl]: “This café is really cute! You come here often?”</Line2>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>“Yeah, I take girls here all the time!”</Line1>
+					<Line2>“Ah, so you meet up with a lot of girls huh?...”[Image:MC_happy_peace][Image:Date_nervous]</Line2>
+				</Text>
+				<Points>-1</Points>
+				<NextChapter>Chapter5</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>“A friend recommended me this place”</Line1>
+					<Line2>Ah, I can see why!”[Image:Date_nervous_smile][Image:MC_happy_peace]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter5</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1>“Not really, but I thought you might like it.”</Line1>
+					<Line2>“Awhh, that’s really sweet of you!”[Image:Date_happy][Image:MC_happy_peace]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter5</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter4>
+	<Chapter5>
+		<Lines>
+			<Line1>A waiter passes by and asks the both of you what you would like to order.[Image:Date_smile][Image:MC_neutral_smile]</Line1>
+			<Line2>[Girl]: “Hi there! Can i have a [weird fantasy drink]”?</Line2>
+			<Line3>The waiter tells her they don't serve those here.[Image:Date_nervous]</Line3>
+			<Line4>[girl]: "Oh really? It's really popular where I'm from.."</Line4>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>[MC]: "Where are you from exactly?"</Line1>
+					<Line2>[girl]: “I am from... uh.. Germany”[Image:Date_nervous_smile][Image:MC_neutral_smile]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter5B</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>[MC]: "Maybe you could try a caffe latte?"</Line1>
+					<Line2>[girl]: "Ah thanks for the recommedation!"[Image:Date_happy][Image:MC_happy_smile]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter6A</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1>[MC]: "I will have a ... please"</Line1>
+					<Line2>[girl]: “Okay.. I will have just a water then, please.”[Image:Date_unhappy][Image:MC_neutral_smile]</Line2>
+				</Text>
+				<Points>-1</Points>
+				<NextChapter>Chapter6B</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter5>
+	<Chapter5B>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>[MC]: "Ah sehr toll!"</Line1>
+					<Line2>[girl]: "Ha Ha Ha"[Image:Date_nervous][Image:MC_happy_peace]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter5C</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>[MC]: "Oh cool, didn't know they drank that there. Didn't even know that existed to be honest.."</Line1>
+					<Line2>[girl]: "Ha Ha Ha" [Image:Date_nervous][Image:MC_happy_smile]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter5C</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter5B>
+	<Chapter5C>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>[MC]: "Maybe you could try a caffe latte?"</Line1>
+					<Line2>[girl]: "Ah thanks for the recommedation!"[Image:Date_happy][Image:MC_happy_smile]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter6A</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>[MC]: "I will have a ... please"</Line1>
+					<Line2>[girl]: “Okay.. I will have just a water then, please.”[Image:Date_unhappy][Image:MC_neutral_smile]</Line2>
+				</Text>
+				<Points>-1</Points>
+				<NextChapter>Chapter6B</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter5C>	
+	<Chapter6A>
+		<Lines>
+			<Line1>You let the waiter know toy also would like a caffe latte.[Image:Date_smile][Image:MC_happy_peace]</Line1>
+			<Line2>The waiter confirms your order and walks back to the kitchen.[Image:MC_neutral_smile]</Line2>
+			<Line3>[girl]: "Well then [MC], I'd like to know ou a litle better... $is it okay if i ask a couple of questions?"</Line3>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Sure, go ahead</Line1>
+					<Line2>[girl]: So to start off..[Image:Date_nervous]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter7</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>Uh nah fuck off..</Line1>
+					<Line2>[girl]: ... [Image:Date_unhappy][Image:MC_uninterested]</Line2>
+				</Text>
+				<Points>-50</Points>
+				<NextChapter>ChapterBad1</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter6A>
+	<Chapter6B>
+		<Lines>
+			<Line1>...</Line1>
+			<Line2>The waiter confirms your order and walks back to the kitchen.[Image:MC_neutral_smile]</Line2>
+			<Line3>[girl]: "Well then [MC], I'd like to know ou a litle better... $is it okay if i ask a couple of questions?"</Line3>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Sure, go ahead</Line1>
+					<Line2>[girl]: So to start off..[Image:Date_nervous]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter7</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>Uh nah fuck off..</Line1>
+					<Line2>[girl]: ... [Image:Date_unhappy][Image:MC_uninterested]</Line2>
+				</Text>
+				<Points>-50</Points>
+				<NextChapter>ChapterBad1</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter6B>
+
+	<!--[Questions]-->
+	<Chapter7>
+		<Lines>
+			<Line1>[girl]: "How old are you?"[Image:Date_nervous][Image:MC_neutral_smile]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> 20 </Line1>
+					<Line2>[girl]: "Interesting. And how old can humans get exactly?"[Image:MC_happy_peace]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter8A</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> 25 </Line1>
+					<Line2>[girl]: "Interesting. And how old can humans get exactly?"[Image:MC_happy_peace]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter8A</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> 112 </Line1>
+					<Line2>[girl]: "Interesting. And how old can humans get exactly?"[Image:MC_uninterested]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter8B</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter7>
+	<Chapter8A>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Approximately 80 years, I believe? </Line1>
+					<Line2> [girl]: "Oh! Then you'll still be alive for a while, great!" [Image:Date_happy]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter9A</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> Uh what? </Line1>
+					<Line2> [girl]: "Oh, nevermind haha" [Image:MC_uninterested][Image:Date_nervous_smile]</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter10</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter8A>
+	<Chapter8B>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Approximately 80 years, I believe? </Line1>
+					<Line2> [girl]: "Oh! Then you'll still be alive for a while, great!"[Image:Date_happy] </Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter9B</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> Uh what? </Line1>
+					<Line2> [girl]: "Oh, nevermind haha"[Image:MC_uninterested][Image:Date_nervous_smile] </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter10</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter8B>
+	<Chapter9A>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Thats Right! </Line1>
+					<Line2>   </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter10</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> I suppose so? </Line1>
+					<Line2>  </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter10</NextChapter>
+			</Option2>
+		</Options>
+	</Chapter9A>
+	<Chapter9B>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Thats Right! </Line1>
+					<Line2>  </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter10</NextChapter>
+			</Option1>
+		</Options>
+	</Chapter9B>
+	<Chapter10>
+		<Lines>
+			<Line1>[girl]: "Next question! If you had to eat one specific thing for eternity, what would it be?"[Image:Date_smile]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Pizza </Line1>
+					<Line2> [girl]: "I see! That should be no problem." [Image:Date_happy][Image:MC_happy_smile]</Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter11</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> Salads </Line1>
+					<Line2> [girl]: "I see! That should be no problem."[Image:Date_happy][Image:MC_happy_smile] </Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter11</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> What? </Line1>
+					<Line2> [girl]: "Ah you don't want to talk about your favourite food..? $Okay.. maybe the next one then.."[Image:Date_nervous][Image:MC_uninterested] </Line2>
+				</Text>
+				<Points>-2</Points>
+				<NextChapter>Chapter12</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter10>
+	<Chapter11>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> Okay..? </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter12</NextChapter>
+			</Option1>
+		</Options>
+	</Chapter11>
+	<Chapter12>
+		<Lines>
+			<Line1>[girl]: "So the next question. If you had to choose between the following two, where would you rather sleep? On a cat bed or in a fluffy den? "[Image:Date_happy]</Line1>
+			<Line2>Both on the floor by the way[Image:Date_nervous_smile]</Line2>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> The cat bed </Line1>
+					<Line2> [girl]: "Perfect!" [Image:Date_smile][Image:MC_neutral_smile] </Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter13</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> The fluffy den </Line1>
+					<Line2> [girl]: "Perfect!"[Image:Date_smile][Image:MC_neutral_smile] </Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>Chapter13</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> Why are you asking me this?? </Line1>
+					<Line2> [girl]: "Just eh.. curious haha" [Image:MC_uninterested]</Line2>
+				</Text>
+				<Points>-3</Points>
+				<NextChapter>Chapter13</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter12>
+	<Chapter13>
+		<Lines>
+			<Line1>[girl]: "Who is the cutest girl in this room? "[Image:Date_smile]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> You? </Line1>
+					<Line2> [girl]: "Hahaha I'm just joking, but thanks!" [Image:Date_happy][Image:MC_happy_smile] </Line2>
+				</Text>
+				<Points>1</Points>
+				<NextChapter>[Ending:Calculation]</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> You of course! </Line1>
+					<Line2> [girl]: "Hahaha I'm just joking, but thanks!"[Image:Date_happy][Image:MC_happy_peace] </Line2>
+				</Text>
+				<Points>2</Points>
+				<NextChapter>[Ending:Calculation]</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> I don't know.. </Line1>
+					<Line2> [girl]: "Hahaha, I'm just joking"[Image:Date_unhappy][Image:MC_uninterested] </Line2>
+				</Text>
+				<Points>-3</Points>
+				<NextChapter>[Ending:Calculation]</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter13>
+
+	<!--Best ending path, points >= 8 -->
+	<!--<scrapped due time>-->
+	<Chapter..>
+		<Lines>
+			<Line1>..</Line1>
+			<Line2>..</Line2>
+			<Line3>..</Line3>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter..>
+	
+	<!--Mid ending path, points > 4-->
+	<ChapterMid1>
+		<Lines>
+			<Line1>[girl]: "You seem like a good fit.. Yes"[Image:Date_smile][Image:MC_neutral_smile][BGM:endingMid]</Line1>
+			<Line2>The waiter finally brings in the drinks and you spend the rest of the afternoon with [girl] in the cafe.</Line2>
+			<Line3>By the end of it, you begin to feel unwell.. $Now that you think of it, that drink tasted weird..</Line3>
+			<Line4>Could something have been put into it perhaps??[Image:Date_nervous_smile][Image:MC_uninterested]</Line4>
+			<Line5>Suddenly you collapse and everything turns dark.. [BG:black][Image:Date_empty]</Line5>
+			<Line6> [@] </Line6>
+			
+			<Line7>[MC]: "Huh where am I?"</Line7>
+			<Line8>[Girl]: "Don't worry, we made it!"[Image:Mage_Smile]</Line8>
+			<Line9>You look around and find yourself in a throne room. [BG:Royal]</Line9>
+			<Line10>King: SILENCE! Let me see the human.</Line10>
+			<Line11>[Girl]: "Here you go my lord, he seems to be the perfect fit!"[Image:Mage_happy]</Line11>
+			<Line12>[girl] pushes you towards the king, you see him inspecting you.</Line12>
+			<Line13>King: "Ah yes, this will do."</Line13>
+			<Line14>The king takes you by the shoulder and puts you next to him in a smaller chair.[Image:MC_angry]</Line14>
+			<Line15>King: "Then its deciden, this is my new royal pet!"</Line15>
+			<Line16>[MC]: "I'm your what?!"</Line16>
+			<Line17>You can hear the crowd cheering, everyone praises the king and his new pet!</Line17>
+			<Line18>[girl]: "Thank you for our lovely date, but my job is done here. Enjoy your stay with the king!"[Image:Mage_mischief] </Line18>			
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>YOU SON OF A...</Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>[Gameover: mid]</NextChapter>
+			</Option1>
+		</Options>
+	</ChapterMid1>
+	
+	<!--Game Over path, points <= 3-->
+	<ChapterBad1>
+		<Lines>
+			<Line1>[girl]: You know [MC], I don't think this is going to work..[Image:MC_uninterested][Image:Date_unhappy][BGM:endingBad]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Huh why?</Line1>
+					<Line2>[girl]: "You're just not the one i had in mind."</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>ChapterBad2A</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>I agree, this was a stupid idea..</Line1>
+					<Line2>[girl]: "More like your stupid idea!"[Image:MC_angry] </Line2>
+				</Text>
+				<Points>-5</Points>
+				<NextChapter>ChapterBad2B</NextChapter>
+			</Option2>
+		</Options>
+	</ChapterBad1>
+	<ChapterBad2A>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Oh ok well if that's how you feel</Line1>
+					<Line2>[girl]: Sorry</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>[Gameover: bad]</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>You're being ridiculous.. We've only just met</Line1>
+					<Line2>[Girl]: Ridiculous?? How rude!</Line2>
+				</Text>
+				<Points>-5</Points>
+				<NextChapter>ChapterBad3A</NextChapter>
+			</Option2>
+		</Options>
+	</ChapterBad2A>
+	<ChapterBad2B>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Hey fuck you we're both responsible, you child!</Line1>
+					<Line2>[girl]: How rude..</Line2>
+				</Text>
+				<Points>-5</Points>
+				<NextChapter>ChapterBad3B</NextChapter>
+			</Option1>
+		</Options>
+	</ChapterBad2B>
+	<ChapterBad3A>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Sorry..</Line1>
+					<Line2>[girl]: Pssh..</Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>[Gameover: bad]</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1>Eat shit</Line1>
+					<Line2>[Girl] uses magic to kill [MC] </Line2>
+				</Text>
+				<Points>-50</Points>
+				<NextChapter>[Gameover: bad]</NextChapter>
+			</Option2>
+		</Options>
+	</ChapterBad3A>
+	<ChapterBad3B>
+		<Lines>
+			<Line1>[@]</Line1>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1>Eat shit</Line1>
+					<Line2>[Girl] uses magic to kill [MC] </Line2>
+				</Text>
+				<Points>-50</Points>
+				<NextChapter>[Gameover: bad]</NextChapter>
+			</Option1>
+		</Options>
+	</ChapterBad3B>
+	
+	<!--Chapter Template
+	<Chapter..>
+		<Lines>
+			<Line1>..</Line1>
+			<Line2>..</Line2>
+			<Line3>..</Line3>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option1>
+			<Option2>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option2>
+			<Option3>
+				<Text>
+					<Line1> .. </Line1>
+					<Line2> </Line2>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+			</Option3>
+		</Options>
+	</Chapter..>
+	-->
+</Story>
