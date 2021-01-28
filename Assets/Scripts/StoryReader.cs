@@ -25,14 +25,20 @@ public class StoryReader : MonoBehaviour {
 	}
 
 	public void FindData() {
+		/*
 		string path = "Assets/Resources/XML/StoryScript.xml";
-
 		XmlDocument doc = new XmlDocument();
 		var contents = "";
 		using(StreamReader streamReader = new StreamReader(path)) {
 			contents = streamReader.ReadToEnd();
 		}
 		doc.LoadXml(contents);
+		*/
+
+
+		TextAsset test = Resources.Load<TextAsset>("XML/StoryScript");
+		XmlDocument doc = new XmlDocument();
+		doc.LoadXml(test.text);
 
 
 		//string chapter = "Chapter" + currentChapterId;
